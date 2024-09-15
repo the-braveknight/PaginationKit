@@ -1,5 +1,5 @@
 //
-//  Page.swift
+//  Paged.swift
 //  Server
 //
 //  Created by Zaid Rahhawi on 15/09/2024.
