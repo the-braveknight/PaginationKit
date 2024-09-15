@@ -8,7 +8,7 @@
 import Vapor
 import Fluent
 
-public struct Page<Item>: ResponseEncodable, AsyncResponseEncodable where Item: Content {
+public struct Paged<Item>: ResponseEncodable, AsyncResponseEncodable where Item: Content {
     public let items: [Item]
     public let metadata: PageMetadata
     
